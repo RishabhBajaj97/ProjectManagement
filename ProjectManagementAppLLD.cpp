@@ -10,6 +10,6 @@ class Task {
 public:
 	int estimate;
 	bool isCompleted;
-	String user;
+	string user;
 	vector<Task> dependents;
 };
